@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="javascript/script.js"></script>
+        <title>Calcolatrice</title>        
+        </script>
+    </head>
+    <Body>
+        <CENTER>
+        <table>
+            <tr>
+                <td colspan="5"><input type="text" value="0" id="schermo" readonly="readonly"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="(" id="(" OnClick="visualizza(this.id)" class="tasto" style="color: rgba(93,153,119);"></td>
+                <td><input type="submit" value=")" id=")" OnClick="visualizza(this.id)" class="tasto" style="color: rgba(93,153,119);"></td>
+                <td><input type="submit" value="C" id="cancella" OnClick="cancella()" class="tasto" ></td>
+                <td><input type="submit" value="+" id="+" OnClick="visualizza(this.id)" class="tasto" style="color: rgba(93,153,119);"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="7" id="7" OnClick="visualizza(this.id)" class="tasto"></td>
+                <td><input type="submit" value="8" id="8" OnClick="visualizza(this.id)" class="tasto"></td>
+                <td><input type="submit" value="9" id="9" OnClick="visualizza(this.id)" class="tasto"></td>
+                <td><input type="submit" value="-" id="-" OnClick="visualizza(this.id)" class="tasto" style="color: rgba(93,153,119);"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="4" id="4" OnClick="visualizza(this.id)" class="tasto"></td>
+                <td><input type="submit" value="5" id="5" OnClick="visualizza(this.id)" class="tasto"></td>
+                <td><input type="submit" value="6" id="6" OnClick="visualizza(this.id)" class="tasto"></td>
+                <td><input type="submit" value="*" id="*" OnClick="visualizza(this.id)" class="tasto" style="color: rgba(93,153,119);"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="1" id="1" OnClick="visualizza(this.id)" class="tasto"></td>
+                <td><input type="submit" value="2" id="2" OnClick="visualizza(this.id)" class="tasto"></td>
+                <td><input type="submit" value="3" id="3" OnClick="visualizza(this.id)" class="tasto"></td>
+                <td><input type="submit" value="/" id="/" OnClick="visualizza(this.id)" class="tasto" style="color: rgba(93,153,119);"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="." id="." OnClick="visualizza(this.id)" class="tasto" style="color: rgba(93,153,119);font-size: 50px;"></td>
+                <td><input type="submit" value="0" id="0" OnClick="visualizza(this.id)" class="tasto"></td>
+                <td colspan="2"><input type="submit" value="=" id="uguale" OnClick="calcola()" class="tasto"></td>
+            </tr>
+        </table>
+        </CENTER>   
+    </Body>
+</html>
